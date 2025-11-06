@@ -12,7 +12,7 @@ export default function FilterCountry({ filters, setFilters }) {
   };
 
   return (
-    <div className="filter">
+    <div className="filter country-filter">
       <h2 htmlFor="country-filter" className="filter-label block">
         Country
       </h2>
@@ -21,7 +21,7 @@ export default function FilterCountry({ filters, setFilters }) {
         id="country-filter"
         value={filters.country}
         onChange={handleChange}
-        className="country-filter mgn-t-1"
+        className="mgn-t-1"
       >
         {options.map((option) => (
           <option key={option} value={option}>

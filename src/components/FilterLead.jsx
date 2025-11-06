@@ -22,12 +22,12 @@ export default function FilterLead({ filters, setFilters }) {
 
   return (
     <div className="filter lead-filter">
-      <h2 htmlFor="volume" className="filter-label block">
+      <h2 htmlFor="lead-filter" className="filter-label block">
         Lead: {filters.lead} {unit}
       </h2>
 
       <input
-        id="volume"
+        id="lead-filter"
         type="range"
         min="0"
         max={max}
