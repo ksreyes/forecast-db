@@ -1,0 +1,27 @@
+
+.filters {
+    height: var(--height-filters);
+    font-size: .9rem;
+}
+
+.filter-label {
+    font-weight: bold;
+}
+
+.filter {
+    background-color: var(--blue4);
+    padding: 5px 8px 5px 8px;
+    border-radius: 4px;
+}
+
+.country-filter {
+    width: 175px;
+}
+
+.lead-filter {
+    width: 175px;
+
+    & input {
+        width: 100%;
+    }
+}
