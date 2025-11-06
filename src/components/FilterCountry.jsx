@@ -7,8 +7,6 @@ export default function FilterCountry({ filters, setFilters }) {
       ...prevFilters,
       country: event.target.value,
     }));
-
-    console.log(filters);
   };
 
   return (
