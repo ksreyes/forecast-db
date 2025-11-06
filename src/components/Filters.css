@@ -3,6 +3,7 @@
 .filters-container {
   height: var(--height-filters);
   font-size: 0.9rem;
+  font-weight: bold;
 }
 
 .filters {
@@ -22,6 +23,7 @@
 
 .filter-label {
   font-size: .75rem;
-  font-weight: bold;
+  font-weight: normal;
+  text-transform: uppercase;
 }
 
